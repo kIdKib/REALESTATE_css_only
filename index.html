@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="main.js"></script>
+    <!-- Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Document</title>
+</head>
+<body style=" overflow-x: hidden;">
+    
+    <header style="background-color: #282828;">
+        <div>
+            <div>
+                <span>Real<span>Estate</span></span>
+                <span>BEST REAL ESTATE DEALERS </span>
+            </div>
+            <div>
+                <p>
+                    <span>1-800-555-1234</span>
+                    <span>realestate@demolink.com</span>
+                </p>
+            </div>
+        </div>
+
+
+        <!-------------------------Navbar---------------------->
+        <nav id="navenhaut">
+            <!--<button type="button" class="btn btn-primary d-md-none w-100 justify-content-center" onclick="toggleNavbar('disparution')">
+                <i class=" fas fa-bars "></i>
+            </button>-->    
+            <div class="border-top border-dark border-bottom d-none d-mw-100 justify-content-center " id="disparution">
+                <ul>
+                    <li><a style="background-image: var(--bs-gradient); background-color: #444242 ;" href="#">Home</a></li>
+                    <li><a href="#" style="background-color: #444242 ;">About us</a></li>
+                    <li><a  href="#" style="background-color: #444242 ;">Buying</a></li>
+                    <li><a href="#" style="background-color: #444242 ;">Selling</a></li>
+                    <li><a href="#" style="background-color: #444242 ;">Movings</a></li>
+                    <li><a href="#" style="background-color: #444242 ;">Contacts</a></li>
+
+                </ul>
+            </div>
+        </nav>
+            
+    </header>
+
+
+    <main>
+
+        <!------------------------------------------CAROUSEL--------------------------------------->
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <!--<div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>-->
+            <div class="carousel-inner">
+              <div class="carousel-item active ca_Carousel" data-bs-interval="10000">
+                    <img src="image/maison-carousel1.jpg" class=" image_Carousel" alt="...">
+                    <div class=" d-none d-m px-5 pt-4 me-5  position-absolute end-0 div_text_carousel">
+                        <h5 class="">We can satisfy any taste</h5>
+                        <p>Lorem ipsum dolor, sit amet adipisicing elit. Ducimus autem perspiciatis tempora at iste enim!</p>
+                    </div>
+              </div>
+              <!--<div class="carousel-item ca_Carousel" data-bs-interval="2000">
+                <img src="image/maison-carousel1.jpg" class=" w-100 image_Carousel" alt="...">
+                <div class="carousel-caption d-none d-m d-md ">
+                  <h5>Second slide label</h5>
+                  <p>Some representative placeholder content for the second slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item ca_Carousel">
+                <img src="image/maison-carousel1.jpg" class=" w-100 image_Carousel" alt="...">
+                <div class="carousel-caption d-none d-m ">
+                  <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>-->
+        </div>
+
+
+        <!--------------------------FEATURED------------------------>
+        <section class="FEATURED" style="margin-top:50px; margin-bottom: 7rem;">
+
+            <section class="border-bottom">
+                <div>
+                    <h3>Featured <span class=" text-warning">Listings</span></h3>
+                    <div>
+                        <a href="#"><div style="width: 1.5rem ; height: 1.5rem;"><i class="fa-solid fa-chevron-left"></i></div></a>
+                        <a href="#"><div style="width: 1.5rem ; height: 1.5rem;"><i class="fa-solid fa-chevron-right"></i></div></a>
+                    </div>
+                </div>
+
+                <div>
+                    <div>
+                        <div>
+                            <a href="#"><img style="width: 20rem; height: 11rem; object-fit: cover;" src="image/maison_luxueuse1.jpeg" alt="maison luxueuse" srcset=""></a>    
+                        </div>
+                        <h4>Cost: $370 000</h4>
+                        <span style="border-bottom: #444242 solid 1px; line-height: 2; display: flex; justify-content: space-between; width: 75%;" class=" border-bottom ">
+                            <span style="font-weight: bold;">House size: </span>
+                            <span>2,700 Sq Ft</span>
+                        </span>
+                        <br>
+                        <span style="border-bottom: #444242 solid 1px; display: flex; justify-content: space-between; width: 75%;" class="border-bottom">
+                            <span style="font-weight: bold;">Lot size:</span>
+                            <span>0.19 Acres</span>
+                        </span>
+
+                    </div>
+                    <div class="col">
+                        <div class="overflow-hidden" style="width: 20rem;">
+                            <a href="#"><img style="width: 20rem; height: 11rem; object-fit: cover;" src="image/maison-carousel2.jpg" alt="maison luxueuse" srcset=""></a>
+                        </div>
+                        <h4 class=   mt-4 ">Cost: $370 000</h4>
+                        <span style="border-bottom: #444242 solid 1px; line-height: 2; display: flex; justify-content: space-between; width: 75%;" class="border-bottom">
+                            <span style="font-weight: bold;">House size:</span>
+                            <span>2,700 Sq Ft</span>
+                        </span>
+                        <br>
+                        <span style="border-bottom: #444242 solid 1px; display: flex; justify-content: space-between; width: 75%;" class="border-bottom">
+                            <span style="font-weight: bold;">Lot size:</span>
+                            <span>0.19 Acres</span>
+                        </span>
+                    </div>
+                    <div class="col">
+                        <div>
+                            <a href="#"><img style="width: 20rem; height: 11rem; object-fit: cover;" src="image/maison_luxueuse1.jpeg" alt="maison luxueuse" srcset=""></a>    
+                        </div>
+                        <h4 class=   mt-4 ">Cost: $370 000</h4>
+                        <span style="border-bottom: #444242 solid 1px; line-height: 2; display: flex; justify-content: space-between; width: 75%;" class="border-bottom">
+                            <span style="font-weight: bold;">House size: </span>
+                            <span>2,700 Sq Ft</span>
+                        </span>
+                        <br>
+                        <span style="border-bottom: #444242 solid 1px; display: flex; justify-content: space-between; width: 75%;" class="border-bottom">
+                            <span style="font-weight: bold;">Lot size:</span>
+                            <span>0.19 Acres</span>
+                        </span>
+
+                    </div>
+                    <div class="col">
+                        <div class="overflow-hidden" style="width: 20rem;">
+                            <a href="#"><img style="width: 20rem; height: 11rem; object-fit: cover;" src="image/maison-carousel2.jpg" alt="maison luxueuse" srcset=""></a>
+                        </div>
+                        <h4 class=   mt-4 ">Cost: $370 000</h4>
+                        <span style="border-bottom: #444242 solid 1px; line-height: 2; display: flex; justify-content: space-between; width: 75%;" class="border-bottom">
+                            <span style="font-weight: bold;">House size:</span>
+                            <span>2,700 Sq Ft</span>
+                        </span>
+                        <br>
+                        <span style="border-bottom: #444242 solid 1px; display: flex; justify-content: space-between; width: 75%;" class="border-bottom">
+                            <span style="font-weight: bold;">Lot size:</span>
+                            <span>0.19 Acres</span>
+                        </span>
+                    </div>
+                    
+                    <!--
+                    <div class="col">
+                        <div>
+                            <a href="#"><img style="width: 20rem; height: 11rem; object-fit: cover;" src="image/maison_luxueuse1.jpeg" alt="maison luxueuse" srcset=""></a>
+                        </div>
+                        <h4 class=   mt-4 ">Cost: $370 000</h4>
+                        <span style="border-bottom: #444242 solid 1px; line-height: 2" class="border-bottom">
+                            <span>House size:</span>
+                            <span>2,700 Sq Ft</span>
+                        </span>
+                        <br>
+                        <span style="border-bottom: #444242 solid 1px; line-height: 2" class="border-bottom">
+                            <span>Lot size:</span>
+                            <span>0.19 Acres</span>
+                        </span>
+
+                    </div>
+                    <div class="col ">
+                        <div class="overflow-hidden" style="width: 20rem;">
+                            <a href="#"><img style="width: 20rem; height: 11rem; object-fit: cover;" src="image/maison-carousel2.jpg" alt="maison luxueuse" srcset=""></a>
+                        </div>
+                        <h4 class=   mt-4 ">Cost: $370 000</h4>
+                        <span class="border-bottom">
+                            <span>House size:</span>
+                            <span>2,700 Sq Ft</span>
+                        </span>
+                        <br>
+                        <span class="border-bottom">
+                            <span>Lot size:</span>
+                            <span>0.19 Acres</span>
+                        </span>
+                    </div>-->
+                </div>
+            </section>
+
+            <section class=" ">
+
+
+                <section>
+                    <h3>News</h3>
+                    <div class="News">
+
+                        <div>
+                            <a href="#" class="">
+                                <img style="width: 5.5rem; height: 5rem; object-fit:cover;"  src="image/maison_luxueuse2.jpeg" alt="masion luxieuse 2" srcset="">
+                            </a>
+                            <div>
+                                <div class="">
+                                    <span>September 09.09.12</span><br>
+                                    <span class="span_News">Lorem ipsum dolor sit rapd kei amet.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <a href="#" class="">
+                                <img style="width: 5.5rem; height: 5rem; object-fit:cover;"  src="image/maison_luxueuse2.jpeg" alt="masion luxieuse 2" srcset="">
+                            </a>
+                            <div>
+                                <div class="">
+                                    <span>September 09.09.12</span><br>
+                                    <span class="span_News">Lorem ipsum dolor sit rapd kei amet.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <a href="#" class="">
+                                <img style="width: 5.5rem; height: 5rem; object-fit:cover;"  src="image/maison_luxueuse2.jpeg" alt="masion luxieuse 2" srcset="">
+                            </a>
+                            <div>
+                                <div class="">
+                                    <span>September 09.09.12</span><br>
+                                    <span class="span_News">Lorem ipsum dolor sit rapd kei amet.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <a href="#" class="">
+                                <img style="width: 5.5rem; height: 5rem; object-fit:cover;"  src="image/maison_luxueuse2.jpeg" alt="masion luxieuse 2" srcset="">
+                            </a>
+                            <div>
+                                <div class="">
+                                    <span>September 09.09.12</span><br>
+                                    <span class="span_News">Lorem ipsum dolor sit rapd kei amet.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <a href="#" class="">
+                                <img style="width: 5.5rem; height: 5rem; object-fit:cover;"  src="image/maison_luxueuse2.jpeg" alt="masion luxieuse 2" srcset="">
+                            </a>
+                            <div>
+                                <div class="">
+                                    <span>September 09.09.12</span><br>
+                                    <span class="span_News">Lorem ipsum dolor sit rapd kei amet.</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        
+
+                       
+                        <button class="README" style="height: 3rem;"><span> READ MORE</span></button>
+
+                    </div>
+                </section>
+
+
+                <section class="Welcome">
+                    <h3>Welcome</h3>
+                    <div class="">
+
+                        <div class="div_pic">
+                            <a href="#">
+                                <img style="object-fit:cover;" src="image/maison_luxueuse3.jpg" alt="maison_luxueuse3" srcset="">
+                            </a>
+                        </div>
+
+                        <div class="welcome_text">
+                            <h4 >Lorem ipsum dolor sit.</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium cupiditate ipsam quae quam, ad facere tenetur maiores aperiam, nisi numquam impedit velit?</p>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam sed fugiat necessitatibus, labore similique consectetur? Cum, maxime optio! Consequuntur quisquam deleniti esse veniam, cum numquam.</p>
+                        </div>
+
+                        <button class="README" style="height: 3rem;"><span> READ MORE</span></button>
+
+                    </div>
+                </section>
+
+
+                <section class="Quick_Search" style="position: relative;">
+                    <h3>Quick Search</h3>
+                    <div class="Quick_Search_div_mome_1">
+
+                        <form action="">
+                            <label for="price">Price per month</label>
+                            <div class="mba">                                                                
+                                <input type="input" class="form-control" placeholder="Price in dollars" > 
+                                <span>to</span>                           
+                                <input type="input" class="form-control">
+                            </div>
+
+                            
+                            <div>
+                                <label for="exampleInputPassword1" class="form-label">Location</label>
+                                <input type="input" class="form-control" placeholder="Address, City, Zip">
+                            </div>
+
+                            <div class="selection ">
+                                <div class="   ">
+                                    <label for="">Min bedrooms</label>
+                                    <select required>
+                                        <option value="" disabled selected hidden>Any type</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                </div>
+
+                                <div>
+                                    <label for="">Property type</label>
+                                    <select required>
+                                        <option value="" disabled selected hidden>Any type</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                </div>
+                                
+                                <div>
+                                    <label for="">Availability</label>
+                                    <select required>
+                                        <option value="" disabled selected hidden>Any type</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                </div>
+                                
+                                <div>
+                                    <label for="">Fumished</label>
+                                    <select required>
+                                        <option  value="" disabled selected hidden>Any type</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                </div>
+
+
+                            </div>
+                            
+                        </form>
+                        
+
+                        
+                    </div>
+                    <div class="colonne_bouton">
+                        <button class="README" style="height: 3rem;"><span> READ MORE</span></button>
+                        <a href="#">Need more criteria?</a>
+                        <p class=" ">Advanced search</p>
+                    </div>
+                </section>
+
+                
+
+            </section>
+        
+        </section>
+
+          
+    </main>
+
+
+    <footer class="">
+        <div class="foot_container">
+            
+            <div style="">
+                <h2>Company</h2>
+                <ul class="">
+                    <li><i class="fa-solid fa-bars i_foot"></i><span> </span><a href="#" class="a_foot">About us</a></li>
+                    <li><i class="fa-solid fa-bars i_foot"></i><span> </span><a href="#" class="a_foot"> Sevices</a></li>
+                    <li><i class="fa-solid fa-bars i_foot"></i><span> </span><a href="#" class="a_foot">Presentation</a></li>
+                    <li><i class="fa-solid fa-bars i_foot"></i><span> </span><a href="#" class="a_foot">Clients</a></li>
+                </ul>
+            </div>
+
+            <div class="">
+                <h2 style="color: rgba(255, 255, 255, 0.727); font-size: 1.5rem; font-weight: 100;margin-bottom: 10px;">Properties</h2>
+                <ul class="">
+                    <li><i class="fa-solid fa-bars " style="color: rgba(255, 255, 255, 0.727); font-size: 1.1rem;"></i><span> </span><a href="#">Commercial</a></li>
+                    <li><i class="fa-solid fa-bars "></i><span> </span><a href="#" class=" ">Residential</a></li>
+                    <li><i class="fa-solid fa-bars "></i><span> </span><a href="#" class=" ">Luxury</a></li>
+                </ul>
+            </div>
+
+            <div class="">
+                <h2 class="   ">Advice</h2>
+                <ul class="">
+                    <li><i class="fa-solid fa-bars "></i><span> </span><a href="#" class=" ">FAQs</a></li>
+                    <li><i class="fa-solid fa-bars "></i><span> </span><a href="#" class=" "> Support</a></li>
+                </ul>
+            </div>
+
+            <div class="">
+                <h2 class="   ">Fore Clients</h2>
+                <ul class="">
+                    <li><i class="fa-solid fa-bars "></i><span> </span><a href="#" class=" ">Sign up</a></li>
+                    <li><i class="fa-solid fa-bars "></i><span> </span><a href="#" class=" ">Forums</a></li>
+                    <li><i class="fa-solid fa-bars "></i><span> </span><a href="#" class=" ">Promotions</a></li>
+                </ul>
+            </div>
+
+            <div class="">
+                <h2 class="   ">Real Estate</h2>
+                <p class=" ">8901 Marmora Roaf, Glasgow,D04 89GR <br>Phone: +1 800 784 349 <br>Email: <u style="color: white;">gyimahrokib@gmail.com</u></p>
+            </div>
+            
+            
+            
+        </div>
+        <div class="dernier_bas">
+            <h3><span style="color: white;">REAL</span><span style="color: #DBAC46;;">ESTATE</span> <span style="font-size: .8rem;">Ⓒ 2021 | Privacy Policy</span></h3>
+        </div>
+    </footer>
+
+
+
+</body>
+<script>
+    function toggleNavbar(collapseId) {
+        document.getElementById(collapseId).classList.toggle('d-none')
+        document.getElementById(collapseId).classList.toggle('')
+
+    }
+</script>
+</html>
